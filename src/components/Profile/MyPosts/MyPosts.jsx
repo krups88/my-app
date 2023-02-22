@@ -1,5 +1,6 @@
 import React from "react";
 import s from './MyPost.module.css';
+import Post from "./Post/Post";
 
 const MyPosts = () => {
     return (
@@ -11,13 +12,11 @@ const MyPosts = () => {
                 New post
             </div>
             <div className={s.posts}>
-                <div className={s.item}>
-                    <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-FDAXbcfJNn05sKOBRulVNZhz5v5DMN6tPg&usqp=CAU'/>
-                    post 1
-                </div>
-                <div className={s.item}>
-                    post 2
-                </div>
+                <Post />
+                <Post />
+                <Post />
+                <Post />
+                <Post />
             </div>
         </div>
     )
