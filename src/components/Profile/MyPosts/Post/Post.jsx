@@ -9,11 +9,11 @@ const  Post = (props) => {
             <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-FDAXbcfJNn05sKOBRulVNZhz5v5DMN6tPg&usqp=CAU' />
             {props.message} 
             <div>
-                <span>like {props.likeCount}</span>
+                <span>like {props.likesCount}</span>
             </div>
 
         </div>
     );
 }
 
-export default Post; 
+export default Post;  
