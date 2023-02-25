@@ -5,7 +5,7 @@ import s from'./Header.module.css';
 const Header = () => {
     return (
             <header className={s.header}>
-                <img src='https://www.freepnglogos.com/uploads/logo-website-png/logo-website-file-globe-icon-svg-wikimedia-commons-21.png' className={s.img}/>
+                <img src='https://www.svgrepo.com/show/303155/under-armour-logo.svg' className={s.img}/>
             </header>
     )
 }
