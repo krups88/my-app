@@ -4,5 +4,7 @@
 }
 
 .header img {
-    width: 90px;
+    width: 50px;
+    padding-left: 6%;
+    margin-top: 5px;
 }

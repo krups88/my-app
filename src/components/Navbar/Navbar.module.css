@@ -1,7 +1,7 @@
 .nav {
     grid-area: n;
     background-color: rgb(110, 83, 47);
-    padding: 20px;
+    padding: 60px;
 }
 .item a {
     color: white;
@@ -9,6 +9,34 @@
 }
 
 .item a:active, .item a:focus{
-    color: rgb(56, 47, 18);
+    color: rgb(0, 0, 0);
 } 
+.logoProfile {
+    width: 13px;
+    margin-left: 20%;
+    margin-bottom: -3px;
+}
 
+.logoMessages {
+    width: 14px;
+    margin-left: 18%;
+    margin-bottom: -9px;
+}
+
+.logoNews {
+    width: 18px;
+    margin-left: 16%;
+    margin-bottom: -9px;
+}
+
+.logoMusic {
+    width: 18px;
+    margin-left: 16%;
+    margin-bottom: -9px;
+}
+
+.logoSettings {
+    width: 18px;
+    margin-left: 16%;
+    margin-bottom: -9px;
+}

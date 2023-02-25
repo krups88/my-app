@@ -5,7 +5,7 @@ import s from'./Header.module.css';
 const Header = () => {
     return (
             <header className={s.header}>
-                <img src='https://www.planetware.com/wpimages/2019/11/canada-in-pictures-beautiful-places-to-photograph-morraine-lake.jpg' className={s.img}/>
+                <img src='https://www.freepnglogos.com/uploads/logo-website-png/logo-website-file-globe-icon-svg-wikimedia-commons-21.png' className={s.img}/>
             </header>
     )
 }
