@@ -1,17 +1,15 @@
 import React from "react"
 import s from './Profile.module.css';
 import MyPosts from "./MyPosts/MyPosts";
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
 
-const Profile = () => {
+
+
+const Profile = (props) => {
     return (
-        <div>
-            <div className={s.content}>
-                <img src='https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg' />
-            </div>
-            <div>
-                ava + description
-            </div>
+        <div >
+            <ProfileInfo />
             <MyPosts />
         </div>
     )
