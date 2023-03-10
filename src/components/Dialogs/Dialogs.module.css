@@ -1,10 +1,11 @@
 .dialogs {
     display: grid;
     grid-template-columns: 2fr 10fr;
-    color:white;
+    /*color:white;*/
 }
 
 .dialog {
+    color: black;
 
 }
 
@@ -23,4 +24,8 @@
 
 .message {
 
+}
+
+.block {
+    min-height: 44px;
 }
